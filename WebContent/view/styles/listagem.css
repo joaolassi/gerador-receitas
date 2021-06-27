@@ -1,0 +1,134 @@
+* {
+	margin: 0;
+	padding: 0;
+
+}
+
+body {
+	font-family: arial, sans-seriff;
+	background: #F2994A;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #c09e39, #F2994A);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #c09e39, #F2994A);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.cointainerListagem{
+	margin: 26px;
+}
+
+.home a {
+	margin: 10px;
+	font-size: 14pt;
+	color: black;
+	text-decoration: none;
+	color: white;
+}
+.home a:hover {
+	color: white;
+}
+
+.home {
+	position: fixed;
+	display: block;
+
+}
+
+.table a {
+	text-decoration: none;
+
+}
+
+.card {
+	position: relative;
+
+	justify-content: space-around !important;
+
+	display: flex;
+	flex-direction: row;
+}
+
+.card {
+	position: relative;
+
+	justify-content: space-around !important;
+
+	display: flex;
+}
+
+.nome {
+	position: relative;
+	justify-content: center;
+	text-align: center;
+
+	color: rgb(255, 255, 255);
+}  
+
+.back-nome {
+	background-color: #b47b46;
+	border-radius: 10px;
+}
+
+.back-nome:hover {
+	background-color: #ddb744;
+	border-radius: 10px;
+}
+
+.back-nome a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.btn {
+	background-color: rgb(46, 52, 61);
+	color: white;
+	border-radius: 30px;
+
+	overflow: hidden;
+
+	width: 20%;
+	height: 20%;
+}
+
+.btn:hover {
+	background-color: rgb(77, 87, 102) !important;
+	border: none !important;
+}
+
+h6{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.buttons a {
+	display:flex;
+	justify-content: center;
+	
+	border-radius: 5px;
+	background: #b47b46;
+	width:45%;
+	color: white;
+	font-size: 14pt;	
+	
+	text-decoration: none;
+	color: white;
+}
+
+.buttons a:hover {
+
+	background: #cc925b;
+	color: white;
+	
+}
+
+.buttons{
+	display:flex;
+	flex-direction:row;
+	justify-content: space-between;
+	
+	margin:10px;
+}

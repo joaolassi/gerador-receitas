@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+/* Dá margin e padding 0 para os navegadores ficarem todos iguais com relação a tamanho */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: arial, sans-seriff;
+	background-image: url('../images/fundo.jpg');
+
+	background-size: 100%;
+	background-repeat: no-repeat;
+
+}
+
+.container{
+	margin-top: 15%;
+
+	width: 50%;
+
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
+
+.centro{
+	display: flex;
+	flex-direction: row;
+
+	justify-content: space-between;
+	
+}
+
+.receitaButtonAdd {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 60pt;
+
+	width: 100%;
+	border-radius: 50px;
+	background: rgb(195, 177, 34);
+	background: linear-gradient(351deg, rgba(195, 177, 34, 1) 0%, rgba(176, 66, 66, 1) 98%);
+
+} 
+.receitaButtonAdd a{
+	display: flex;
+	justify-content: center !important;
+}
+
+.receitaButtonList {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 60pt;
+
+	width: 100%;
+	border-radius: 50px;
+	background: rgb(195, 177, 34);
+	background: linear-gradient(351deg, rgba(195, 177, 34, 1) 0%, rgba(176, 66, 66, 1) 98%);
+
+}
+
+
+.listReceita h1 {
+
+	display: flex;	
+	justify-content: center;
+	width: 321px;
+}
+
+.addReceita h1 {
+	display: flex;
+
+	
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	display: flex;
+	justify-content: center !important;
+} 
+
+.receitaButtonList:hover, .receitaButtonAdd:hover{
+	
+	background: linear-gradient(351deg, rgb(204, 193, 110) 0%, rgb(218, 96, 96) 98%);
+
+}

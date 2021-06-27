@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/* Dá margin e padding 0 para os navegadores ficarem todos iguais com relação a tamanho */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: arial, sans-seriff;
+	background-image: url('../images/fundo.jpg');
+
+	background-size: 100%;
+	background-repeat: no-repeat;
+
+}
+
+
+h1 {
+
+	display: flex;	
+	margin:200px;
+	justify-content: center;
+}
+
+h1 {
+	display: flex;
+
+	
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	display: flex;
+	justify-content: center !important;
+	background:white;
+} 
+
